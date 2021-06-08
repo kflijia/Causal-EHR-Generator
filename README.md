@@ -92,10 +92,10 @@ Major med.line=1,2,3,4 position=2,4,20,56/80 Special: TRUE,FALSE,FALSE,FALSE
 Minor No.1 med.line=3 position=20/80
 Harmful No.1 med.line=1 position=52/80
 
-# med.line & position: used medicine lines, and happening positions in the data serial (len(data.serial)=year.num*2)
-# Special: whether this patient is specially reacted to the medicine, may useless even harmful as contrary
-# Minor No.1: lines & positions of the 1st medicine that minorly influent the lab
-# Harmful No.1: lines & positions of the 1st medicine that harmfully influent the lab 
+med.line & position: used medicine lines, and happening positions in the data serial (len(data.serial)=year.num*2)
+Special: whether this patient is specially reacted to the medicine, may useless even harmful as contrary
+Minor No.1: lines & positions of the 1st medicine that minorly influent the lab
+Harmful No.1: lines & positions of the 1st medicine that harmfully influent the lab 
 
 In the figure, filled dots=observed values, unfilled dots=unobserved values
 
